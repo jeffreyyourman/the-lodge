@@ -8,7 +8,7 @@ const PodcastsPagePreview = ({ entry, widgetFor }) => (
     content={widgetFor('body')}
   />
 )
-
+ 
 PodcastsPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
